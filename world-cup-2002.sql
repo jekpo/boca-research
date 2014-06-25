@@ -7,6 +7,9 @@
 --- Nigeria = NGA
 
 
+--- SETTING HOST COUNTRY
+UPDATE `host_countries` SET `country` = '' WHERE `year` = 0;
+
 --- INSERT Queries
 
 INSERT INTO `players` (`fname`, `lname`, `age`, `country`, `weight`) VALUES 

@@ -6,6 +6,8 @@
 --- Italy  = ITA
 --- Nigeria = NGA
 
+--- SETTING HOST COUNTRY
+UPDATE `host_countries` SET `country` = 'France' WHERE `year` = 1998;
 
 --- INSERT Queries
 
